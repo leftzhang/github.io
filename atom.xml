@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>往事可以回念</title>
+  
   <subtitle>iOS</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -22,15 +23,15 @@
     <published>2016-06-14T09:35:23.000Z</published>
     <updated>2016-06-14T10:02:06.000Z</updated>
     
-    <content type="html">&lt;p&gt;今天SVN代码upgrade后，SVN客户端无法使用，报错：版本过低，要求升级。&lt;/p&gt;
-&lt;h2 id=&quot;升级办法&quot;&gt;&lt;a href=&quot;#升级办法&quot; class=&quot;headerlink&quot; title=&quot;升级办法&quot;&gt;&lt;/a&gt;升级办法&lt;/h2&gt;&lt;p&gt;点击下面的网站，找到自己对应的MacOS版本，填写相关信息，到填写的邮箱中下载新版本。&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ 地址：http://www.wandisco.com/subversion/download&lt;span class=&quot;comment&quot;&gt;#osx&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-</content>
+    <content type="html"><![CDATA[<p>今天SVN代码upgrade后，SVN客户端无法使用，报错：版本过低，要求升级。</p><h2 id="升级办法"><a href="#升级办法" class="headerlink" title="升级办法"></a>升级办法</h2><p>点击下面的网站，找到自己对应的MacOS版本，填写相关信息，到填写的邮箱中下载新版本。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ 地址：http://www.wandisco.com/subversion/download<span class="comment">#osx</span></div></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;今天SVN代码upgrade后，SVN客户端无法使用，报错：版本过低，要求升级。&lt;/p&gt;
+      
+      
+        &lt;p&gt;今天SVN代码upgrade后，SVN客户端无法使用，报错：版本过低，要求升级。&lt;/p&gt;
 &lt;h2 id=&quot;升级办法&quot;&gt;&lt;a href=&quot;#升级办法&quot; class=&quot;headerlink&quot; title=&quot;升级办法&quot;&gt;&lt;/a&gt;升级办法&lt;/h2&gt;&lt;p&gt;点击下面的网站，找到自己对应
+      
     
     </summary>
     
