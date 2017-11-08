@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="leftzhang.github.io/"/>
-  <updated>2016-06-14T10:02:06.000Z</updated>
+  <updated>2017-11-07T09:02:21.000Z</updated>
   <id>leftzhang.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ssh权限失效</title>
+    <link href="leftzhang.github.io/2017/11/07/ssh%E6%9D%83%E9%99%90%E5%A4%B1%E6%95%88/"/>
+    <id>leftzhang.github.io/2017/11/07/ssh权限失效/</id>
+    <published>2017-11-07T07:11:34.000Z</published>
+    <updated>2017-11-07T09:02:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>长时间没有在GitHub上更新blog，不知什么原因导致GitHub上配置的公钥丢失，导致hexo部署失败<br>报错信息:<br>               Permission denied (publickey).<br>               fatal: Could not read from remote repository.<br>               Please make sure you have the correct access rights<br>               and the repository exists.</p><h2 id="解决办法-–-重新添加ssh公钥"><a href="#解决办法-–-重新添加ssh公钥" class="headerlink" title="解决办法 – 重新添加ssh公钥"></a>解决办法 – 重新添加ssh公钥</h2><p> 1、打开本地文件：id_rsa.pub（文件路径可以在上一步SSH生成成功后看到路径，比如我的是c/Users/dell/.ssh/id_rsa.pub），可以将这个文件在编辑器中打开，然后全选复制。</p><p> 2、 登陆github，点击头像位置处 Settings ——&gt; SSH and GPG keys ——&gt; New SSH key，点击新建SSH key。</p><p> 3、 将 1 中复制的内容粘贴在key文本框里，title可以不用填（或者自己起一个名字也可以）。</p><p> 4、测试设置是否成功：<br>      $ ssh -T git@github.com</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;长时间没有在GitHub上更新blog，不知什么原因导致GitHub上配置的公钥丢失，导致hexo部署失败&lt;br&gt;报错信息:&lt;br&gt;               Permission denied (publickey).&lt;br&gt;               fatal: 
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>SVN版本更新</title>
