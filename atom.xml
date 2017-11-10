@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="leftzhang.github.io/"/>
-  <updated>2017-11-07T09:02:21.000Z</updated>
+  <updated>2017-11-10T06:38:26.000Z</updated>
   <id>leftzhang.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="leftzhang.github.io/2017/11/07/ssh%E6%9D%83%E9%99%90%E5%A4%B1%E6%95%88/"/>
     <id>leftzhang.github.io/2017/11/07/ssh权限失效/</id>
     <published>2017-11-07T07:11:34.000Z</published>
-    <updated>2017-11-07T09:02:21.000Z</updated>
+    <updated>2017-11-10T06:38:26.000Z</updated>
     
     <content type="html"><![CDATA[<p>长时间没有在GitHub上更新blog，不知什么原因导致GitHub上配置的公钥丢失，导致hexo部署失败<br>报错信息:<br>               Permission denied (publickey).<br>               fatal: Could not read from remote repository.<br>               Please make sure you have the correct access rights<br>               and the repository exists.</p><h2 id="解决办法-–-重新添加ssh公钥"><a href="#解决办法-–-重新添加ssh公钥" class="headerlink" title="解决办法 – 重新添加ssh公钥"></a>解决办法 – 重新添加ssh公钥</h2><p> 1、打开本地文件：id_rsa.pub（文件路径可以在上一步SSH生成成功后看到路径，比如我的是c/Users/dell/.ssh/id_rsa.pub），可以将这个文件在编辑器中打开，然后全选复制。</p><p> 2、 登陆github，点击头像位置处 Settings ——&gt; SSH and GPG keys ——&gt; New SSH key，点击新建SSH key。</p><p> 3、 将 1 中复制的内容粘贴在key文本框里，title可以不用填（或者自己起一个名字也可以）。</p><p> 4、测试设置是否成功：<br>      $ ssh -T git@github.com</p>]]></content>
     
@@ -34,6 +34,10 @@
     
     </summary>
     
+      <category term="博客" scheme="leftzhang.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="权限" scheme="leftzhang.github.io/tags/%E6%9D%83%E9%99%90/"/>
     
   </entry>
   
@@ -42,7 +46,7 @@
     <link href="leftzhang.github.io/2016/06/14/SVN%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/"/>
     <id>leftzhang.github.io/2016/06/14/SVN版本更新/</id>
     <published>2016-06-14T09:35:23.000Z</published>
-    <updated>2016-06-14T10:02:06.000Z</updated>
+    <updated>2017-11-10T06:37:58.000Z</updated>
     
     <content type="html"><![CDATA[<p>今天SVN代码upgrade后，SVN客户端无法使用，报错：版本过低，要求升级。</p><h2 id="升级办法"><a href="#升级办法" class="headerlink" title="升级办法"></a>升级办法</h2><p>点击下面的网站，找到自己对应的MacOS版本，填写相关信息，到填写的邮箱中下载新版本。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ 地址：http://www.wandisco.com/subversion/download<span class="comment">#osx</span></div></pre></td></tr></table></figure>]]></content>
     
@@ -56,6 +60,10 @@
     
     </summary>
     
+      <category term="开发工具" scheme="leftzhang.github.io/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="开发错误" scheme="leftzhang.github.io/tags/%E5%BC%80%E5%8F%91%E9%94%99%E8%AF%AF/"/>
     
   </entry>
   
